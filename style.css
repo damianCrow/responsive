@@ -1,0 +1,252 @@
+body, div, p, h1, h2, h3, h4, h5, h6, img, ul, li, a {
+	margin: 0;
+	padding: 0;
+	font-family: helvetica, helvetica neue, arial, san-serif;
+	text-decoration: none;
+	list-style: none;
+}
+
+body {
+	background-color: #E6E6E6;
+}
+
+.center {
+	text-align: center;
+}
+
+a {
+	font-size: 70%;
+}
+li:hover {
+	border-bottom: 2px solid rgba(70, 2, 127, 1);
+	border-radius: 5%;
+}
+
+.black {
+	color: #000;
+}
+
+.grey {
+	color: #333;
+}
+
+#header h1, #header ul li a, #overlay {
+	text-align: center;
+}
+img {
+	max-width: 99.7%;
+	height: auto;
+	border: solid 1px #000;	
+}
+
+p, h4 {
+	margin-bottom: 2%;
+	font-size: 75%;
+}
+
+#left-column, #center-column, #right-column {
+	float: left;
+}
+
+#wrapper {
+	overflow: hidden;
+	margin: 0 auto;
+	width: 100%;
+	height: 100%;
+	max-width: 1600px;
+}
+
+#header, #footer {
+	clear: both;
+	width: 99%;
+	height: 20%;
+	min-height: 105px;
+	margin: 1% 0 1% 0.5%;
+	background-color:  #ced4cc;
+	-webkit-box-shadow: 0px 2px 37px -8px rgba(151,142,163,1);
+	-moz-box-shadow: 0px 2px 37px -8px rgba(151,142,163,1);
+	box-shadow: 0px 2px 37px -8px rgba(151,142,163,1);
+}
+
+#header h1 {
+	width: 100%;
+	opacity: 0.8;
+	margin: 1% 0 0 0;
+	padding: 1%;
+}
+
+#header ul li {
+	float: left;
+	width: 8%;
+	margin: 0 0.3% 0 0.3%;
+	-webkit-box-shadow: 0px 2px 37px -8px rgba(151,142,163,1);
+	-moz-box-shadow: 0px 2px 37px -8px rgba(151,142,163,1);
+	box-shadow: 0px 2px 37px -8px rgba(151,142,163,1);
+
+}
+
+#left-column {
+	width: 18.5%;
+	height: 75%;
+	min-height: 700px;
+	margin: 1% 1% 0 0.5%;
+}
+
+#img-wrapper-left, #img-wrapper-center, #img-wrapper-right {
+	height: 33%;
+	width: 100%;
+}
+#content-wrapper-left, #content-wrapper-center, #content-wrapper-right {
+	height: 66%;
+	margin-top: 1%;
+	width: 100%;
+}
+
+#nav li  {
+	padding: 3% 0 3% 0;
+	width: 100%;
+	-webkit-box-shadow: 0px 2px 37px -8px rgba(151,142,163,1);
+	-moz-box-shadow: 0px 2px 37px -8px rgba(151,142,163,1);
+	box-shadow: 0px 2px 37px -8px rgba(151,142,163,1);
+}
+
+#more-content {
+	background-image: url("images/green-water.jpg");
+	min-height: 200px;
+	margin-top: 10%;
+	background-repeat: no-repeat;
+}
+
+#overlay {
+	color: #fff;
+	padding-top: 40%;
+
+}
+
+#center-column {
+	height: 75%;
+	min-height: 700px;
+	width: 60%; 
+	margin-top: 1%;
+}
+
+#right-column {
+	height: 75%;
+	min-height: 700px;
+	width: 18.5%;
+	margin: 1% 0.5% 0 1%; 
+}
+
+.share {
+	display: block;
+	margin: 0 1% 1% 0;
+}
+
+#menu {
+	display: none;
+}
+
+@media screen and (max-width: 1020px){
+
+#right-column {
+	display: none;
+}
+
+#header ul li a {
+	width: 8%;
+	margin: 0 auto;
+	font-size: 60%;
+}
+
+#left-column {
+	width: 25%;
+}
+
+#center-column {
+	width: 73%;
+	margin-right: 0.5%;
+}}
+
+@media screen and (max-width: 640px){
+
+#wrapper {
+	min-width: 300px;	
+}
+
+#header {
+	margin-bottom: 0;
+}
+
+#header ul li {
+	width: 33.33%;
+	float: none;
+	text-align: center;
+	margin: 0 auto;
+	margin-bottom: 2%;
+	padding: 1%;
+}
+
+#header-ul {
+	display: none;
+}
+
+#content-wrapper-left {
+	margin: 0;
+}
+
+h1 {
+	font-size: 130%;
+}
+
+#menu {
+	width: 33.33%;
+	height: 30px;
+	display: block;
+	margin: 3% 0 0 33%;
+	text-align: center;
+}
+
+#more-content, #img-wrapper-left {
+	display: none;
+}
+
+#nav li, #nav li a {
+	margin: 0;
+	padding: 0 0.5% 0.5% 0.5%;
+	height: 40px;
+	text-align: center;
+}
+
+li:hover {
+	border-bottom: 0;
+}
+
+#center-column, #left-column {
+	width: 99%;
+	margin: 0.5%;
+	min-height: 0;
+}}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
